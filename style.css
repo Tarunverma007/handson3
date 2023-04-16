@@ -1,0 +1,164 @@
+body{
+    margin:0;
+   background-image: url(./food1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border:10px groove rgb(18, 216, 23);
+}
+
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    
+    
+}
+.box{
+    border: 5px solid red;
+    background-color:black;
+    border-radius: 20px;
+    color: aliceblue;
+    display: inline-block;
+    margin-top: 10px;
+    text-align:center;
+   
+}
+.box1{
+    width: 350px;
+    height: 100px;
+    font-style: italic;
+    font-size: large;
+    font-weight: 100;
+    line-height: 2.6;
+    
+}
+
+
+.box2{
+    margin-left: -120px;
+    margin-top: 15px;
+    width: 300px;
+    height:70px;
+    line-height: 6;
+    border-radius: 30px;
+}
+.box3{
+    width: 350px;
+    height: 100px;
+    margin-left: 70px;
+    line-height: 2;
+}
+.container2{
+    display: flex;
+    justify-content: start;
+    margin-top: 30px;
+}
+.circle{
+    width: 350px;
+    height: 350px;
+    background-color: rgb(25, 78, 59);
+    border: 6px solid gray ;
+    align-content: center;
+    border-radius: 50%;
+    display:inline-block;
+    margin-left:50px;
+    margin-top:120px;
+    margin-right:200px;
+
+
+}
+.circletext{
+    text-align: center;
+    margin-top: 90px;
+    text-decoration: solid black;
+    size: 50px;
+    
+}
+.formbox{
+    border-style: dashed ;
+    border-width: 5px;
+    border-color: red;
+    background-color: aliceblue;
+    display: inline-block;
+}
+#heading1{
+    color: red;
+    margin-left:5px;
+    margin-right:5px;
+}
+.formbox .formlabel{
+    color: red;
+    margin-left: 40%;
+    
+}
+.formbox .inputstyle{
+    margin-left:25%
+}
+.formbox .inputstyle2{
+    margin-left:35%
+}
+.formbox .formlabel2{
+    color: red;
+    padding-left: 60px;
+}
+.formbox .inputstyle1{
+    margin-left: 49%;
+}
+.formbox .inputstyle3{
+    margin-left:37%
+}.formbox .subbtn{
+    margin-left: 37%;
+}
+.resetbtn{
+    margin-left: 46%;
+    color: red;
+}
+.resetbtn1{
+    margin-left: 43%;
+    margin-bottom: 5px;
+}
+.Menu1{
+    font-style: italic  ;
+    width: 450px;
+    border: 5px solid red;
+    background-color:black;
+    border-radius: 40px;
+    color: aliceblue;
+    display: inline-block;
+    margin-top: 35px;
+    display: flex;
+    justify-content: center;
+    margin-left: 30%; 
+}
+.menus{
+    display: flex;
+    gap: 30px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.menus h1{
+    text-align: center;
+    text-decoration: solid rgba(20, 23, 63, 0.61);
+}
+.menusbox{
+    width: 350px;
+    height: 350px;
+    border: 4px solid green;
+    background-color: aqua;
+    border-radius: 30px;
+    margin-left: 5px;
+    margin-bottom: 20px;
+}
+.menubox1{
+    width: 350px;
+    height: 380px;
+    border: 4px solid green;
+    background-color: aqua;
+    border-radius: 30px;
+    margin-left: 5px;
+    margin-bottom: 20px; 
+}
+.unorderlist{
+     font-size: 20px;
+    text-align: center;
+    text-decoration: rgba(34, 29, 102, 0.705);
+}
